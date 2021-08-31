@@ -18,7 +18,7 @@ module "eks" {
   tags = {
     Environment = "prod"
     GithubRepo  = "terraform-prod"
-    GithubOrg   = "Kiq"
+    GithubOrg   = "onidata"
   }
 
   vpc_id = module.vpc.vpc_id
